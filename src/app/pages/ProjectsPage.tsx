@@ -152,23 +152,6 @@ export function ProjectsPage() {
                       ))}
                     </div>
 
-                    {/* Links */}
-                    <div className="flex items-center gap-3">
-                      <a
-                        href={project.liveUrl}
-                        className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 rounded-xl text-white font-['Poppins'] text-sm transition-all shadow-md hover:shadow-lg"
-                      >
-                        <ExternalLink size={16} />
-                        Live Demo
-                      </a>
-                      <a
-                        href={project.githubUrl}
-                        className="flex items-center gap-2 px-6 py-3 bg-gray-100 hover:bg-gray-200 rounded-xl text-gray-900 font-['Poppins'] text-sm transition-all"
-                      >
-                        <Github size={16} />
-                        Code
-                      </a>
-                    </div>
                   </div>
                 </div>
               ))}
@@ -218,22 +201,7 @@ export function ProjectsPage() {
                       ))}
                     </div>
 
-                    {/* Links */}
-                    <div className="flex items-center gap-2">
-                      <a
-                        href={project.liveUrl}
-                        className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 rounded-lg text-white font-['Poppins'] text-sm transition-all"
-                      >
-                        <ExternalLink size={14} />
-                        Demo
-                      </a>
-                      <a
-                        href={project.githubUrl}
-                        className="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg text-gray-900 transition-all"
-                      >
-                        <Github size={16} />
-                      </a>
-                    </div>
+                    
                   </div>
                 </div>
               ))}

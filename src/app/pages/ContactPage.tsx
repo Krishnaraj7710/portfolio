@@ -76,7 +76,7 @@ export function ContactPage() {
                 <div>
                   <h3 className="font-['Poppins'] font-semibold text-gray-900 mb-1">Email</h3>
                   <p className="text-gray-600 font-['Poppins'] text-sm">
-                    kr710krish@gmail.com
+                    krishnarajbr.work@gmail.com
                   </p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export function ContactPage() {
                 <a href="https://github.com/Krishnaraj7710" target="_blank" rel="noopener noreferrer" className="p-3 bg-gradient-to-br from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 rounded-xl text-indigo-600 shadow-sm">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com/in/Kris" target="_blank" rel="noopener noreferrer" className="p-3 bg-gradient-to-br from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 rounded-xl text-indigo-600 shadow-sm">
+                <a href="https://www.linkedin.com/in/krishna-raj-br-4a4ba53b1" target="_blank" rel="noopener noreferrer" className="p-3 bg-gradient-to-br from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 rounded-xl text-indigo-600 shadow-sm">
                   <Linkedin size={20} />
                 </a>
               </div>

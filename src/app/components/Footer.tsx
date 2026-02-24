@@ -43,13 +43,13 @@ export function Footer() {
               <h4 className="font-['Poppins'] font-semibold text-gray-800 mb-3">Connect With Me</h4>
               <div className="flex items-center gap-3">
                 <a
-                  href="https://github.com/Krishnaraj7710"
+                  href="https://github.com/Krishnaraj7710"  target="_blank" rel="noopener noreferrer"
                   className="p-3 bg-gradient-to-br from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 rounded-xl text-indigo-600 transition-all shadow-sm hover:shadow-md"
                 >
                   <Github size={20} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/Kris"
+                  href="https://www.linkedin.com/in/krishna-raj-br-4a4ba53b1" target="_blank" rel="noopener noreferrer"
                   className="p-3 bg-gradient-to-br from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 rounded-xl text-indigo-600 transition-all shadow-sm hover:shadow-md"
                 >
                   <Linkedin size={20} />
